@@ -6,7 +6,7 @@ $.ajaxSetup({
   }
 });
 
-var findTr = function(event) {
+var _findTr = function(event) {
   var target = event.srcElement || event.target;
   var $target = $(target);
   var $tr = $target.parents('tr');
